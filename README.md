@@ -11,3 +11,5 @@ Challenge 2
 
 <img src=https://user-images.githubusercontent.com/16628784/171315550-700ba1b1-1108-4b03-9a3a-f4d57f4a8be5.png width="300" height="648">
 
+Challenge 3
+- Use the local Json to load the Listing values on the MarvelAPI
