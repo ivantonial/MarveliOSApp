@@ -13,3 +13,6 @@ Challenge 2
 
 Challenge 3
 - Use the local Json to load the Listing values on the MarvelAPI
+
+Challenge 4
+-  Use the Marvel api to fetch the content
