@@ -1,4 +1,4 @@
-# MarveliOSApp - teste
+# MarveliOSApp
 
 Challenge 1
 - Refactor the ViewController to looks like Detail Screen
