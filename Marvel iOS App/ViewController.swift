@@ -7,8 +7,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .blue
+        //view.backgroundColor = .blue
         //titleLabel.text = HeroDetailConstants.name
-        titleLabel.text = MarvelAPI().fetchHeroesListing().last?.name ?? ""
+        //titleLabel.text = MarvelAPI().fetchHeroesListing().last?.name ?? ""
     }
 }
