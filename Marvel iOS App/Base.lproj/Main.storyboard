@@ -36,7 +36,7 @@
                                 <rect key="frame" x="0.0" y="88" width="390" height="722"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="heroCell" rowHeight="378" id="E79-im-fPg" customClass="HeroTableView" customModule="Marvel_iOS_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="heroCell" rowHeight="378" id="E79-im-fPg" customClass="CustomCell" customModule="Marvel_iOS_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="378"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="E79-im-fPg" id="a4z-Ym-MMV">
@@ -67,8 +67,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="heroImage" destination="i56-Sd-Abx" id="JlX-pX-deo"/>
-                                            <outlet property="heroLabel" destination="JkV-R2-cuK" id="Ve9-wm-OYr"/>
+                                            <outlet property="heroImage" destination="i56-Sd-Abx" id="a1c-dP-X4X"/>
+                                            <outlet property="heroName" destination="JkV-R2-cuK" id="dwv-Je-pnf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -104,54 +104,54 @@
                                 <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ni-Nw-fEQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="772.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="842.66666666666663"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenellis-head" translatesAutoresizingMaskIntoConstraints="NO" id="h7C-Yb-YYl">
-                                                <rect key="frame" x="35" y="30" width="320" height="250"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h7C-Yb-YYl">
+                                                <rect key="frame" x="35" y="30" width="320" height="320"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="250" id="R9W-uN-rhL"/>
+                                                    <constraint firstAttribute="width" secondItem="h7C-Yb-YYl" secondAttribute="height" multiplier="1:1" id="eL8-6d-BFb"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Ellis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBX-3P-SJ5">
-                                                <rect key="frame" x="163.66666666666666" y="310" width="63" height="21"/>
+                                                <rect key="frame" x="163.66666666666666" y="380" width="63" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHN-fd-dsi">
-                                                <rect key="frame" x="0.0" y="361" width="390" height="21"/>
+                                                <rect key="frame" x="0.0" y="431" width="390" height="21"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Bugle (1996) #3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaP-Dt-MpO">
-                                                <rect key="frame" x="112.66666666666669" y="397" width="165" height="21"/>
+                                                <rect key="frame" x="112.66666666666669" y="467" width="165" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Daily Bugle has seen it all...until the day Betty Brant was taken hostage!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK2-RI-moY">
-                                                <rect key="frame" x="40" y="448" width="310" height="40.666666666666686"/>
+                                                <rect key="frame" x="40" y="518" width="310" height="40.666666666666629"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSS-dD-Tax">
-                                                <rect key="frame" x="0.0" y="533.66666666666663" width="390" height="21"/>
+                                                <rect key="frame" x="0.0" y="603.66666666666663" width="390" height="21"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazing Spider-Man (1993) #409" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKG-Jf-s73">
-                                                <rect key="frame" x="65" y="569.66666666666663" width="260" height="21"/>
+                                                <rect key="frame" x="65" y="639.66666666666663" width="260" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5D-vE-5n4">
-                                                <rect key="frame" x="40" y="620.66666666666663" width="310" height="122"/>
+                                                <rect key="frame" x="40" y="690.66666666666663" width="310" height="122"/>
                                                 <string key="text">THE RETURN OF KAINE continues! Kaine has eluded the Great Game for now, but the Rhino won't stop until Kaine joins up - whether he likes it or not! He'll have to team up with Spidey to get out of this one in one piece!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -208,6 +208,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="heroImage" destination="h7C-Yb-YYl" id="09u-0i-WnT"/>
                         <outlet property="titleHero" destination="ZBX-3P-SJ5" id="MtT-nG-9Dq"/>
                     </connections>
                 </viewController>
@@ -217,7 +218,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kenellis-head" width="73.666664123535156" height="73.333335876464844"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

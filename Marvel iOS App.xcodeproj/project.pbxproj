@@ -17,6 +17,8 @@
 		086C447828470CD9004E8ACE /* listing.json in Resources */ = {isa = PBXBuildFile; fileRef = 086C447728470CD9004E8ACE /* listing.json */; };
 		086C447A28470DC2004E8ACE /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C447928470DC2004E8ACE /* MarvelAPI.swift */; };
 		086C447D28470E6B004E8ACE /* HeroInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C447C28470E6B004E8ACE /* HeroInformation.swift */; };
+		669FFE922869E6F500B63EC2 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669FFE912869E6F500B63EC2 /* CustomCell.swift */; };
+		66B5DE982869E35B005BB7FF /* HeroesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B5DE972869E35B005BB7FF /* HeroesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		086C447728470CD9004E8ACE /* listing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = listing.json; sourceTree = "<group>"; };
 		086C447928470DC2004E8ACE /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
 		086C447C28470E6B004E8ACE /* HeroInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroInformation.swift; sourceTree = "<group>"; };
+		669FFE912869E6F500B63EC2 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		66B5DE972869E35B005BB7FF /* HeroesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 			children = (
 				086C447328470776004E8ACE /* HeroDetailConstants.swift */,
 				086C447C28470E6B004E8ACE /* HeroInformation.swift */,
+				66B5DE972869E35B005BB7FF /* HeroesData.swift */,
+				669FFE912869E6F500B63EC2 /* CustomCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,10 +182,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				086C447A28470DC2004E8ACE /* MarvelAPI.swift in Sources */,
+				66B5DE982869E35B005BB7FF /* HeroesData.swift in Sources */,
 				086C44642846FA7A004E8ACE /* ViewController.swift in Sources */,
 				086C447D28470E6B004E8ACE /* HeroInformation.swift in Sources */,
 				086C447428470776004E8ACE /* HeroDetailConstants.swift in Sources */,
 				086C44602846FA7A004E8ACE /* AppDelegate.swift in Sources */,
+				669FFE922869E6F500B63EC2 /* CustomCell.swift in Sources */,
 				086C44622846FA7A004E8ACE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
