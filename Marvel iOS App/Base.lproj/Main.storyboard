@@ -104,7 +104,7 @@
                                 <rect key="frame" x="0.0" y="44" width="390" height="766"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ni-Nw-fEQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="842.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="617"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h7C-Yb-YYl">
                                                 <rect key="frame" x="35" y="30" width="320" height="320"/>
@@ -112,47 +112,46 @@
                                                     <constraint firstAttribute="width" secondItem="h7C-Yb-YYl" secondAttribute="height" multiplier="1:1" id="eL8-6d-BFb"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Ellis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBX-3P-SJ5">
-                                                <rect key="frame" x="163.66666666666666" y="380" width="63" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBX-3P-SJ5">
+                                                <rect key="frame" x="195" y="380" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHN-fd-dsi">
-                                                <rect key="frame" x="0.0" y="431" width="390" height="21"/>
+                                                <rect key="frame" x="0.0" y="410" width="390" height="21"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily Bugle (1996) #3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaP-Dt-MpO">
-                                                <rect key="frame" x="112.66666666666669" y="467" width="165" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaP-Dt-MpO">
+                                                <rect key="frame" x="20" y="446" width="350" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Daily Bugle has seen it all...until the day Betty Brant was taken hostage!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK2-RI-moY">
-                                                <rect key="frame" x="40" y="518" width="310" height="40.666666666666629"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BK2-RI-moY">
+                                                <rect key="frame" x="40" y="476" width="310" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSS-dD-Tax">
-                                                <rect key="frame" x="0.0" y="603.66666666666663" width="390" height="21"/>
+                                                <rect key="frame" x="0.0" y="521" width="390" height="21"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazing Spider-Man (1993) #409" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKG-Jf-s73">
-                                                <rect key="frame" x="65" y="639.66666666666663" width="260" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKG-Jf-s73">
+                                                <rect key="frame" x="20" y="557" width="350" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5D-vE-5n4">
-                                                <rect key="frame" x="40" y="690.66666666666663" width="310" height="122"/>
-                                                <string key="text">THE RETURN OF KAINE continues! Kaine has eluded the Great Game for now, but the Rhino won't stop until Kaine joins up - whether he likes it or not! He'll have to team up with Spidey to get out of this one in one piece!</string>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5D-vE-5n4">
+                                                <rect key="frame" x="40" y="587" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -166,15 +165,16 @@
                                             <constraint firstItem="BK2-RI-moY" firstAttribute="leading" secondItem="7Ni-Nw-fEQ" secondAttribute="leading" constant="40" id="9my-WB-Kxp"/>
                                             <constraint firstItem="wSS-dD-Tax" firstAttribute="top" secondItem="BK2-RI-moY" secondAttribute="bottom" constant="45" id="AUx-Vw-uNx"/>
                                             <constraint firstAttribute="trailing" secondItem="h7C-Yb-YYl" secondAttribute="trailing" constant="35" id="AYZ-wP-Xzq"/>
+                                            <constraint firstItem="jKG-Jf-s73" firstAttribute="leading" secondItem="7Ni-Nw-fEQ" secondAttribute="leading" constant="20" id="AsF-q7-9Wk"/>
                                             <constraint firstItem="ZBX-3P-SJ5" firstAttribute="centerX" secondItem="7Ni-Nw-fEQ" secondAttribute="centerX" id="B7G-f0-CPG"/>
                                             <constraint firstItem="XaP-Dt-MpO" firstAttribute="top" secondItem="hHN-fd-dsi" secondAttribute="bottom" constant="15" id="L8d-Cb-L5P"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BK2-RI-moY" secondAttribute="trailing" constant="40" id="Mlo-vM-Fc9"/>
+                                            <constraint firstAttribute="trailing" secondItem="jKG-Jf-s73" secondAttribute="trailing" constant="20" id="S0F-JI-gAI"/>
+                                            <constraint firstItem="XaP-Dt-MpO" firstAttribute="leading" secondItem="7Ni-Nw-fEQ" secondAttribute="leading" constant="20" id="SHu-W2-fQ5"/>
                                             <constraint firstAttribute="trailing" secondItem="wSS-dD-Tax" secondAttribute="trailing" id="SdR-88-9Pg"/>
-                                            <constraint firstItem="jKG-Jf-s73" firstAttribute="centerX" secondItem="7Ni-Nw-fEQ" secondAttribute="centerX" id="Vun-az-EEb"/>
                                             <constraint firstItem="h7C-Yb-YYl" firstAttribute="top" secondItem="7Ni-Nw-fEQ" secondAttribute="top" constant="30" id="Wcd-I3-qjm"/>
                                             <constraint firstItem="Q5D-vE-5n4" firstAttribute="top" secondItem="jKG-Jf-s73" secondAttribute="bottom" constant="30" id="Xl9-E6-0EC"/>
                                             <constraint firstItem="hHN-fd-dsi" firstAttribute="leading" secondItem="7Ni-Nw-fEQ" secondAttribute="leading" id="Zjp-Qh-4jW"/>
-                                            <constraint firstItem="XaP-Dt-MpO" firstAttribute="centerX" secondItem="7Ni-Nw-fEQ" secondAttribute="centerX" id="btP-qO-naO"/>
                                             <constraint firstItem="jKG-Jf-s73" firstAttribute="top" secondItem="wSS-dD-Tax" secondAttribute="bottom" constant="15" id="cR9-ZO-MQg"/>
                                             <constraint firstItem="ZBX-3P-SJ5" firstAttribute="top" secondItem="h7C-Yb-YYl" secondAttribute="bottom" constant="30" id="k8a-RU-Fdj"/>
                                             <constraint firstItem="h7C-Yb-YYl" firstAttribute="leading" secondItem="7Ni-Nw-fEQ" secondAttribute="leading" constant="35" id="l68-xe-StC"/>
@@ -184,6 +184,7 @@
                                             <constraint firstAttribute="bottom" secondItem="Q5D-vE-5n4" secondAttribute="bottom" constant="30" id="sjb-qe-0Ti"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Q5D-vE-5n4" secondAttribute="trailing" constant="40" id="sk0-hC-lGc"/>
                                             <constraint firstAttribute="trailing" secondItem="hHN-fd-dsi" secondAttribute="trailing" id="tUc-VT-eLD"/>
+                                            <constraint firstAttribute="trailing" secondItem="XaP-Dt-MpO" secondAttribute="trailing" constant="20" id="tyQ-pY-H2d"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -208,6 +209,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="comicsDescription" destination="BK2-RI-moY" id="NWr-O6-KBI"/>
+                        <outlet property="comicsTitle" destination="XaP-Dt-MpO" id="YZ9-Hf-GWh"/>
+                        <outlet property="eventsDescription" destination="Q5D-vE-5n4" id="DrN-hU-z91"/>
+                        <outlet property="eventsTitle" destination="jKG-Jf-s73" id="IHR-JR-PAN"/>
                         <outlet property="heroImage" destination="h7C-Yb-YYl" id="09u-0i-WnT"/>
                         <outlet property="titleHero" destination="ZBX-3P-SJ5" id="MtT-nG-9Dq"/>
                     </connections>
